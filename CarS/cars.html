@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="./swiper-bundle.min.css">
+        
+        <link rel="stylesheet" href="./cars.css">
+        <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+        
+        <title>CarS</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">
+                    <i class="ri-steering-line"></i>
+                    CARSSSSSSS
+                </a>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Abount</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#featured" class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#popular" class="nav-link">Popular</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav-close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                </div>
+                <!-- Toggle -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-add-fill"></i>
+                </div>
+            </nav>
+
+
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== INTRO ====================-->
+            <section class="intro" id="intro">
+                <video autoplay muted loop play-inline class="bgclip">
+                    <source src="./img/BMW_M4.mp4" type="video/mp4">
+                </video>
+                <div class="intro-container">
+                    <h1 class="intro-title">Find Your Dream Car Here!</h1>
+                </div>
+            </section>
+            
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="shape shape-big"></div>
+                <div class="shape shape-small"></div>
+                <div class="home-conatiner container grid">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <i class="fa-solid fa-angle-left"></i>
+                    <div class="home-data">
+                        <h1 class="home-title">Choose The Best Car</h1>
+                        
+                        <h2 class="home-subtitle">Hear the Roar</h2>
+
+                        <h3 class="home-petrol">
+                            <i class="ri-fire-line"></i>
+                            The Beast</h3>
+                    </div>
+                    <img src="./img/Porsche/gt3(2).png" alt="" class="home-img" >
+                    <audio id="carAudio"></audio>
+                    <div class="home-car">
+                        
+                        <div class="home-car-data">
+                            <div class="home-car-icon">
+                                <i class="ri-speed-up-line"></i>
+                            </div>
+                            <h2 class="home-car-num">Top Speed</h2>
+                            <h3 class="home-car-name">280KMPH</h3>
+                        </div>
+                        <div class="home-car-data">
+                            <div class="home-car-icon">
+                                <i class="fa-duotone fa-horse-saddle"></i>
+                            </div>
+                            <h2 class="home-car-num">HorsePower</h2>
+                            <h3 class="home-car-name">520</h3>
+                        </div>
+                        <div class="home-car-data">
+                            <div class="home-car-icon">
+                                <i class="fa-thin fa-gas-pump"></i>
+                            </div>
+                            <h2 class="home-car-num">Mileage</h2>
+                            <h3 class="home-car-name">good</h3>
+                        </div>
+                    </div>
+                    <button class="car-start">Start</button>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about-container container grid">
+                    <div class="about-group">
+                        <img src="./img/about.png" alt="" class="about-img">
+                        
+                        <div class="about-card">
+                            <h3 class="about-card-title">2,500+</h3>
+                            <p class="about-card-description">
+                                Supercharges placed along popular routes
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-data">
+                        <h2 class="section-title about-title">
+                            Machines With <br> Future Technology
+                        </h2>
+                        <p class="about-description">
+                            See the future with high-performance electric cars produced by 
+                            renowned brands. They feature futuristic builds and designs with 
+                            new and innovative platforms that last a long time.
+                        </p>
+
+                        <a href="#" class="button">
+                            Know More
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <h2 class="section-title">
+                    Choose Your Car <br> Of The Porsche Brand
+                </h2>
+
+                <div class="popular-cont cont swiper">
+                    <div class="swiper-wrapper">
+                        <!-- 1 -->
+                        <article class="popular-card swiper-slide">
+                            <div class="shape shape-smaller">
+
+                            </div>
+                            <h1 class="popular-title">Porsche</h1>
+                            <h3 class="popular-subtitle">911 Turbo S</h3>
+                            <img src="./img/Porsche/911_Turbo_S.png" alt="" class="popular-img">
+                            
+                            <div class="popular-data">
+                                <div class="popular-data-grp">
+                                    <i class="fa-solid fa-gauge-max"></i> 3.5 sec
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-regular fa-rabbit-running"></i> 365 KM/H
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-light fa-gas-pump"></i> Expensive Macha
+                                </div>
+                            </div>
+                            
+                            <h3 class="popular-price">bohot Expensive</h3>
+                            <button class="button popular-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        
+                        </article>
+                        <!-- 2 -->
+                        <article class="popular-card swiper-slide">
+                            <div class="shape shape-smaller">
+
+                            </div>
+                            <h1 class="popular-title">Porsche</h1>
+                            <h3 class="popular-subtitle">Cayenne</h3>
+                            <img src="./img/Porsche/cayenne.png" alt="" class="popular-img">
+                            
+                            <div class="popular-data">
+                                <div class="popular-data-grp">
+                                    <i class="fa-solid fa-gauge-max"></i> 3.5 sec
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-regular fa-rabbit-running"></i> 365 KM/H
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-light fa-gas-pump"></i> Expensive Macha
+                                </div>
+                            </div>
+                            
+                            <h3 class="popular-price">Expensive</h3>
+                            <button class="button popular-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        
+                        </article>
+                        <!-- 3 -->
+                        <article class="popular-card swiper-slide">
+                            <div class="shape shape-smaller">
+
+                            </div>
+                            <h1 class="popular-title">Porsche</h1>
+                            <h3 class="popular-subtitle">Singer DLS Turbo</h3>
+                            <img src="./img/Porsche/Singer-DLS-Turbo.png" alt="" class="popular-img">
+                            
+                            <div class="popular-data">
+                                <div class="popular-data-grp">
+                                    <i class="fa-solid fa-gauge-max"></i> 3.5 sec
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-regular fa-rabbit-running"></i> 365 KM/H
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-light fa-gas-pump"></i> Expensive Macha
+                                </div>
+                            </div>
+                            
+                            <h3 class="popular-price"> Very Expensive</h3>
+                            <button class="button popular-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        
+                        </article>
+                        <!-- 4 -->
+                        <article class="popular-card swiper-slide">
+                            <div class="shape shape-smaller">
+
+                            </div>
+                            <h1 class="popular-title">Porsche</h1>
+                            <h3 class="popular-subtitle">Tarchan</h3>
+                            <img src="./img/popular1.png" alt="" class="popular-img">
+                            
+                            <div class="popular-data">
+                                <div class="popular-data-grp">
+                                    <i class="fa-solid fa-gauge-max"></i> 3.5 sec
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-regular fa-rabbit-running"></i> 365 KM/H
+                                </div>
+                                <div class="popular-data-grp">
+                                    <i class="fa-light fa-gas-pump"></i> Expensive Macha
+                                </div>
+                            </div>
+                            
+                            <h3 class="popular-price">Expensive</h3>
+                            <button class="button popular-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                         
+                        </article>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== FEATURES ====================-->
+            <section class="features section">
+                <h2 class="section-title">
+                    More Features
+                </h2>
+                <div class="features-cont cont grid">
+                    <div class="features-grp">
+                        <img src="./img/Porsche/EagleEyeView.png" alt="" class="features-img">
+                        <div class="features-card features-card-1">
+                            <h3 class="features-card-title">800</h3>
+                            <p class="features-card-description">Turbo <br> Charged</p>
+                        </div>
+                        
+                        <div class="features-card features-card-2">
+                            <h3 class="features-card-title">350</h3>
+                            <p class="features-card-description">Top Speed</p>
+                        </div>
+                        
+                        <div class="features-card features-card-3">
+                            <h3 class="features-card-title">It's a</h3>
+                            <p class="features-card-description">Porsche</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./img/map.svg" alt="" class="features-map">
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+                <h2 class="section-title">
+                    Featured Sports Cars
+                </h2>
+
+                <div class="featured-cont cont">
+                    <ul class="featured-filters">
+                        <li>
+                            <button class="featured-items active-cars" data-filter="all">
+                                <span>All</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured-items" data-filter=".porsche">
+                                <img src="./img/logo1.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured-items" data-filter=".bmw">
+                                <img src="./img/logo5.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured-items" data-filter=".mustang">
+                                <img src="./img/Mustang.png" alt="">
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="featured-content grid">
+                        <article class="featured-card mix mustang">
+                            <div class="shape shape-smaller"></div>
+                            
+                            <h1 class="featured-title">Ford Mustang</h1>
+                            
+                            <h3 class="featured-subtitle">Shelby 500</h3>
+                            
+                            <img src="./img/Ford Mustang/Ford-Mustang-Shelby-GT500-Heritage-Edition-2022-3.png" alt="" class="featured-img">
+                            
+                            <h3 class="featured-price">500000</h3>
+                            
+                            <button class="button featured-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        </article>
+
+                        <article class="featured-card mix porsche">
+                            <div class="shape shape-smaller"></div>
+                            
+                            <h1 class="featured-title">Porsche</h1>
+                            
+                            <h3 class="featured-subtitle">Turbo S</h3>
+                            
+                            <img src="./img/featured4.png" alt="" class="featured-img">
+                            
+                            <h3 class="featured-price">5000000</h3>
+                            
+                            <button class="button featured-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        </article>
+
+                        <article class="featured-card mix bmw">
+                            <div class="shape shape-smaller"></div>
+                            
+                            <h1 class="featured-title">BMW</h1>
+                            
+                            <h3 class="featured-subtitle">M5 CS</h3>
+                            
+                            <img src="./img/BMW M5 CS/BMW-M5-CS-2022-2.png" alt="" class="featured-img">
+                            
+                            <h3 class="featured-price">5000000M</h3>
+                            
+                            <button class="button featured-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        </article>
+
+                        <article class="featured-card mix porsche">
+                            <div class="shape shape-smaller"></div>
+                            
+                            <h1 class="featured-title">Porsche</h1>
+                            
+                            <h3 class="featured-subtitle">Singer DLS Turbo</h3>
+                            
+                            <img src="./img/Porsche/Singer-DLS-Turbo.png" alt="" class="featured-img">
+                            
+                            <h3 class="featured-price">5000000</h3>
+                            
+                            <button class="button featured-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        </article>
+
+                        <article class="featured-card mix porsche">
+                            <div class="shape shape-smaller"></div>
+                            
+                            <h1 class="featured-title">Porsche</h1>
+                            
+                            <h3 class="featured-subtitle">911 GT3 RS</h3>
+                            
+                            <img src="./img/Porsche/GT3.png" alt="" class="featured-img">
+                            
+                            <h3 class="featured-price">5000000M</h3>
+                            
+                            <button class="button featured-button">
+                                <i class="fa-solid fa-bag-shopping-plus"></i>
+                            </button>
+                        
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OFFER ====================-->
+            <section class="offer section">
+                <div class="offer-cont cont grid">
+                    <img src="./img/offer-bg.png" alt="" class="offer-bg">
+                    
+                    <div class="offer-data">
+                        <h2 class="section-title offer-title">
+                            Do You Want To Receive <br> Special Offers?
+                        </h2>
+
+                        <p class="offer-desc">
+                            Be the first to receive all the information about our 
+                            products and new cars by email by subscribing to our 
+                            mailing list.
+                        </p>
+                        <a href="" class="button">
+                            Suberscribe Now
+                        </a>
+
+                    </div>
+                    <img src="./img/Porsche/GT3.png" alt="" class="offer-img">
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos-cont cont grid">
+                    <div class="logos-content">
+                        <img src="./img/logo1.png" alt="" class="logos-img">
+                    </div>
+                    <div class="logos-content">
+                        <img src="./img/logo2.png" alt="" class="logos-img">
+                    </div>
+                    <div class="logos-content">
+                        <img src="./img/logo4.png" alt="" class="logos-img">
+                    </div>
+                    <div class="logos-content">
+                        <img src="./img/logo5.png" alt="" class="logos-img">
+                    </div>
+                    <div class="logos-content">
+                        <img src="./img/logo6.png" alt="" class="logos-img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="shape shape-big"></div>
+            <div class="shape shape-small"></div>
+
+            <div class="footer-cont cont grid">
+                <div class="footer-content">
+                    <a href="" class="footer-logo">
+                        <i class="ri-steering-fill"></i>CARSSSSSSSS
+                    </a>
+                    <p class="footer-desc">
+                        We offer the best electric cars of <br> 
+                        the most recognized brands in <br> 
+                        the world.
+                    </p>
+                </div>
+
+                <div class="footer-content">
+                    <h3 class="footer-title">
+                        Company
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Cars</a>
+                        </li>
+                        <li>
+                            <a href="#">History</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-title">
+                        Information
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#">Request a quote
+                                </a>
+                        </li>
+                        <li>
+                            <a href="#">Find a dealer
+                                </a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us
+                                </a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-title">
+                        Follow us
+                    </h3>
+
+                    <ul class="footer-social">
+                        <a href="#" target="_blank" class="footer-social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer-social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer-social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <span class="footer-copy">
+                
+            </span> -->
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="" class="scrollup" id="scrollup">
+            <i class="ri-arrow-up-circle-line"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="./scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="./swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP JS ===============-->
+        <script src="./mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./cars.js"></script>
+    </body>
+</html>
